@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Mimi 💖</title>
+<style>
+body {
+  background: linear-gradient(#ff9a9e, #fad0c4);
+  font-family: Arial;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+}
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff3366;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff0044;
+}
+</style>
+</head>
+<body>
+
+<h1>💌 Hola Mimi 💌</h1>
+<p>Tengo una pregunta muy importante para ti...</p>
+
+<button onclick="mostrar()">Presiona aquí 💖</button>
+
+<p id="mensaje" style="font-size:25px; margin-top:30px;"></p>
+
+<script>
+function mostrar() {
+  document.getElementById("mensaje").innerHTML =
+  "¿Quieres ser mi Valentín este 14 de febrero? 🌹<br><br>Te invito a una cita sorpresa contigo 💕";
+}
+</script>
+
+</body>
+</html>
